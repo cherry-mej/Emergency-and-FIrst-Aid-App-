@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/grey"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="309dp"
+            app:cardCornerRadius="5dp"
+            android:background="@color/colorPrimary">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/firstaid"
+                android:visibility="visible"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/firstAidKitId"
+                android:text="@string/first_aid_kit"
+                android:textSize="25sp"
+                app:cornerRadius="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:textAllCaps="false"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/iconfirst"
+
+                />
+
+            <Button
+                android:id="@+id/feverId"
+                app:cornerRadius="20dp"
+                android:text="@string/fever"
+                android:textSize="25sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:textAllCaps="false"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:drawableStart="@drawable/fever"
+                />
+
+
+
+
+        <Button
+            android:id="@+id/burnsId"
+            android:text="@string/burns"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/white"
+            android:textAllCaps="false"
+            app:cornerRadius="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:drawableStart="@drawable/hand_burn"
+            />
+
+        <Button
+            android:id="@+id/splintersId"
+            android:text="@string/splinters"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            app:cornerRadius="20dp"
+            android:background="@color/white"
+            android:textAllCaps="false"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:drawableStart="@drawable/splinters"
+            />
+
+        <Button
+            android:id="@+id/sprainsId"
+            android:text="@string/sprains_and_strains"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            app:cornerRadius="20dp"
+            android:background="@color/white"
+            android:textAllCaps="false"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:drawableStart="@drawable/sprains"
+            />
+
+        <Button
+            android:id="@+id/nosebleedsId"
+            android:text="@string/nosebleeds"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/white"
+            android:textAllCaps="false"
+            app:cornerRadius="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:drawableStart="@drawable/nosebleeds"
+
+            />
+
+        <Button
+            android:id="@+id/cutsId"
+            android:text="@string/cuts_and_scraps"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/white"
+            android:textAllCaps="false"
+            android:layout_marginTop="5dp"
+            app:cornerRadius="20dp"
+            android:layout_marginBottom="5dp"
+            android:drawableStart="@drawable/cuts_injury"
+
+            />
+
+        <Button
+            android:id="@+id/bitesId"
+            android:text="@string/animal_bites_and_insect_stings"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/white"
+            android:textAllCaps="false"
+            android:layout_marginTop="5dp"
+            app:cornerRadius="20dp"
+            android:layout_marginBottom="5dp"
+            android:drawableStart="@drawable/bites"
+
+            />
+        <Button
+            android:id="@+id/foodPoisonId"
+            android:text="@string/food_poisoning"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/white"
+            android:textAllCaps="false"
+            android:layout_marginTop="5dp"
+            app:cornerRadius="20dp"
+            android:layout_marginBottom="5dp"
+            android:drawableStart="@drawable/food_poison"
+
+            />
+
+        <Button
+            android:id="@+id/strokeId"
+            android:text="@string/stroke"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/white"
+            android:textAllCaps="false"
+            app:cornerRadius="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:drawableStart="@drawable/stroke"
+
+            />
+
+        <Button
+            android:id="@+id/emergencyId"
+            android:text="@string/emergency_numbers"
+            android:textSize="25sp"
+            app:cornerRadius="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/white"
+            android:textAllCaps="false"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:drawableStart="@drawable/about_us"
+
+            />
+
+        <Button
+            android:id="@+id/aboutId"
+            android:text="@string/about"
+            android:textSize="25sp"
+            app:cornerRadius="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/white"
+            android:textAllCaps="false"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:drawableStart="@drawable/about_us"
+
+            />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
